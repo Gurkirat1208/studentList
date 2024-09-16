@@ -20,6 +20,14 @@ public class Student {
     public void setName(String name) {
         this.name = name;
     }
+
+    public String getStudentID() {
+        return studentID;
+    }
+
+    public void setStudentID(String studentID) {
+        this.studentID = studentID;
+    }
     
     public String getAddress(){
         return address;
